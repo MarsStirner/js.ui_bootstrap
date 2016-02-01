@@ -3,7 +3,7 @@ from fanstatic import Resource
 from js.angular import angular
 from js.bootstrap import bootstrap
 
-library = Library('fancybox', 'resources')
+library = Library('ui_bootstrap', 'resources')
 
 ui_bootstrap = Resource(
     library, 'ui-bootstrap-tpls-1.1.1.js',
